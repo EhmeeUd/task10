@@ -1,0 +1,85 @@
+#header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+.navbar{
+    padding: 50px 0;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-right: 5rem;
+}
+
+.navbar-dark .navbar-brand{
+    color: #dcdde1;
+}
+
+.nav-item{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+    background: #1d1919;
+    color: #d1be7f;
+}
+.main{
+    position: relative;
+    background-image:linear-gradient(to right, rgba(56, 47, 47, 0.8),rgba(82, 77, 77, 0.5)), url(/assets/img/pexels-pixabay-236259.jpg);
+    /* height: fit-content;  */
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 120px;
+}
+
+.main h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2.8em;
+    color: #f9f9fa;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main p{
+    margin-top: 1em;
+    padding: 0;
+    font-size: 1.4em;
+    color: #ffffff;
+}
+
+.main .btn{
+    background: #63140a;
+    color: #fff;
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.body-img{
+    background-image:linear-gradient(to right, rgb(255, 255, 255),rgba(247, 240, 240, 0.8)), url(/assets/img/pexels-pixabay-60909.jpg);
+    height: fit-content;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.video-img{
+    background-image:linear-gradient(to right,rgba(48, 44, 43, 0.904),rgba(51, 39, 37, 0.75)), url(/assets/img/pexels-adrianna-calvo-1253718.jpg);
+    height: fit-content;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:12px;
+}
+.foot-img{
+    background-image: url(/assets/img/pexels-jess-bailey-designs-1167050.jpg);
+    height: fit-content;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
